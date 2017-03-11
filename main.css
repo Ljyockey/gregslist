@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	height: 100%;
 	width: 100%;
+	font-family: Helvetica;
 }
 
 nav{
@@ -9,7 +10,6 @@ nav{
 	position: fixed;
 	width: 100%;
 }
-
 
 
 h1, ul {
@@ -23,13 +23,78 @@ h1 {
 
 .nav{
 	position: absolute;
-	right: 10px;
+	right: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav li {
+	padding-left: 15px;
+	padding-top: 10px;
+	font-size: 1.2em;
 }
 
 li {
 	display: inline-block;
 }
 
+nav li a {
+	color: purple;
+}
+
 main {
 	padding-top: 100px;
+	padding-left: 100px;
+}
+
+input, button {
+	vertical-align: middle;
+	margin-top: 5px;
+}
+
+input {
+	height: 30px;
+	width: 500px;
+	font-size: 1.25em;
+}
+
+button {
+	border: 0;
+	padding: 0;
+	border-bottom: none;
+	margin: 0;
+}
+
+img {
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+}
+
+.results-nav ul {
+	padding-left: 0;
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+.results-nav li {
+	border: 2px solid whitesmoke;
+	padding: 10px 25px 10px 25px;
+	margin-left: -5px;
+}
+
+.results-nav a {
+	color: black;
+}
+
+.results {
+	color: gray;
+	margin-top: 50px;
+	font-size: 1.2em;
+}
+
+.results a {
+	font-weight: bold;
 }
